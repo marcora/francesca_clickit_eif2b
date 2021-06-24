@@ -1,3 +1,42 @@
-digraph exp_design {
-
+strict digraph {
+    Exp1 -> Gel1 -> HG01112_AA;
+    Exp1 -> Gel1 -> HG01112_AA;
+    Exp1 -> Gel1 -> HG01435_CC;
+    Exp1 -> Gel1 -> HG01435_CC;
+    Exp1 -> Gel2 -> HG01125_AA;
+    Exp1 -> Gel2 -> HG01125_AA;
+    Exp1 -> Gel2 -> HG01142_CC;
+    Exp1 -> Gel2 -> HG01142_CC;
+    Exp1 -> Gel3 -> GM20073_EIF2B2;
+    Exp1 -> Gel3 -> GM20073_EIF2B2;
+    Exp2 -> Gel4 -> HG01932_AA;
+    Exp2 -> Gel4 -> HG01932_AA;
+    Exp2 -> Gel4 -> HG01565_CC;
+    Exp2 -> Gel4 -> HG01565_CC;
+    Exp2 -> Gel5 -> HG02260_AA;
+    Exp2 -> Gel5 -> HG02260_AA;
+    Exp2 -> Gel5 -> HG01572_CC;
+    Exp2 -> Gel5 -> HG01572_CC;
+    Exp2 -> Gel6 -> GM20074_EIF2B2;
+    Exp2 -> Gel6 -> GM20074_EIF2B2;
+    Vehicle -> HG01112_AA;
+    Thapsi -> HG01112_AA;
+    Vehicle -> HG01435_CC;
+    Thapsi -> HG01435_CC;
+    Vehicle -> HG01125_AA;
+    Thapsi -> HG01125_AA;
+    Vehicle -> HG01142_CC;
+    Thapsi -> HG01142_CC;
+    Vehicle -> GM20073_EIF2B2;
+    Thapsi -> GM20073_EIF2B2;
+    Vehicle -> HG01932_AA;
+    Thapsi -> HG01932_AA;
+    Vehicle -> HG01565_CC;
+    Thapsi -> HG01565_CC;
+    Vehicle -> HG02260_AA;
+    Thapsi -> HG02260_AA;
+    Vehicle -> HG01572_CC;
+    Thapsi -> HG01572_CC;
+    Vehicle -> GM20074_EIF2B2;
+    Thapsi -> GM20074_EIF2B2;
 }
